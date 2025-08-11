@@ -16,8 +16,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ShengShawnWang/deepPATT.git
-   cd deepPATT
+   git clone https://github.com/ShengShawnWang/PolII.pausing.git
+   cd PolII.pausing
    ```
 
 2. Download the pretrained model files from Hugging Face Hub:
