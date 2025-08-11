@@ -67,5 +67,5 @@ This project is licensed under the MIT License.
 ## Contact
 
 For questions, suggestions, or issues, please open an issue on GitHub:
-https://github.com/ShengShawnWang/deepPATT/issues
+https://github.com/ShengShawnWang/PolII.pausing/issues
 
