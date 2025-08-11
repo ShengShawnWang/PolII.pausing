@@ -23,15 +23,21 @@
 2. Download the pretrained model files from Hugging Face Hub:
    
    You can download the model files manually from:
-   https://huggingface.co/ShengShawnWang/deepPATT/tree/main/model
+   
+   Termination model: https://huggingface.co/ShengShawnWang/deepPATT/tree/main/model
+   
+   Pormoter model: https://huggingface.co/ShengShawnWang/PausingPromoter/tree/main/model
    
    Or programmatically via Python:
 
    ```python
    from huggingface_hub import snapshot_download
 
-   # Download all model files into a local folder named 'model'
+   # Download all model files into a local folder named 'model' for termination models
    snapshot_download(repo_id="ShengShawnWang/deepPATT", repo_type="model", local_dir="./model")
+
+   # Alternatively, for the promoter-proximal Pol II pausing prediction task, you can use:
+   snapshot_download(repo_id="ShengShawnWang/PausingPromoter", repo_type="model", local_dir="./model")
 
 3. Set up your environment:
    The model was implemented using Python 3.8.13. It is recommended to use a virtual environment to avoid dependency conflicts.
